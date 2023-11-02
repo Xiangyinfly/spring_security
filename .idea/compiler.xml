@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_security01" />
+        <module name="spring_security05" />
+        <module name="spring_security" />
+        <module name="spring_security04" />
+        <module name="spring_security03" />
+        <module name="spring_security02" />
+        <module name="spring_security07" />
+        <module name="spring_security06" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_security" options="-parameters" />
+      <module name="spring_security01" options="-parameters" />
+      <module name="spring_security02" options="-parameters" />
+      <module name="spring_security03" options="-parameters" />
+      <module name="spring_security04" options="-parameters" />
+      <module name="spring_security05" options="-parameters" />
+      <module name="spring_security06" options="-parameters" />
+      <module name="spring_security07" options="-parameters" />
+    </option>
+  </component>
+</project>
